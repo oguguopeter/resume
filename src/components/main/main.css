@@ -1,0 +1,26 @@
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+}
+span{
+    color: tomato;
+}
